@@ -1,37 +1,37 @@
-.nav_end{
-    text-align: end;
+.nav_right{
+    margin: 8px;
+    
 }
 
-.container-fluid > a {
-    text-decoration: none;
-}
 
 footer{
-    background-color: black;
-    position: absolute;
+    background-color: #77dd77;
+    position: relative;
     bottom: 0;
     width: 100%;
-    color: #eaeaea;
-    height: 30%;
+    color: black;
+    height: auto;
     padding: 20px;
-}
-
-
-.nav-item > a {
-    text-decoration: none;
-    color: white;
-    margin-right: 5px;
-}
-
-.nav-item > a  :hover{
-    text-decoration: underline;
+    margin-bottom: 0;
 }
 
 .footer_icon_margin{
-    margin: 5px;
+    margin: 10px;
     
 }
 .footer_content > a {
     text-decoration: none;
-    color: #eaeaea;
+    color: black;
+}
+
+.login_box{
+    display: flex;
+    border: 1px solid red;
+    height: 400px;
+    width: 600px;
+    position: relative;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
 }
