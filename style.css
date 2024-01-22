@@ -1,0 +1,37 @@
+.nav_end{
+    text-align: end;
+}
+
+.container-fluid > a {
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #eaeaea;
+    height: 30%;
+    padding: 20px;
+}
+
+
+.nav-item > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 5px;
+}
+
+.nav-item > a  :hover{
+    text-decoration: underline;
+}
+
+.footer_icon_margin{
+    margin: 5px;
+    
+}
+.footer_content > a {
+    text-decoration: none;
+    color: #eaeaea;
+}
