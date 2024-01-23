@@ -1,11 +1,16 @@
 .nav_right{
-    margin: 8px;
-    
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.nav_color{
+    color: white;
 }
 
 
 footer{
-    background-color: #77dd77;
+    background-color: #5b7dcf;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -27,11 +32,77 @@ footer{
 .login_box{
     display: flex;
     border: 1px solid red;
-    height: 400px;
-    width: 600px;
+    height: 600px;
+    width: 400px;
     position: relative;
     padding: 30px;
     margin: 30px;
     text-align: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #d3bcf6;
+}
+
+.login_form{
+    display: flex;
     justify-content: center;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.input_box{
+    margin: 8px;
+}
+
+.login_box_title{
+    font-weight: bold;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input{
+    border-radius: 10px;
+    background-color: #cce5ff;
+    border: 0;
+    padding: 10px;
+}
+.login_btn_content > button{
+    border-radius: 10px;
+    background-color: #ffe4e1;
+    border: 0;
+    
+    margin-top: 20px;
+}
+    
+button {
+    
+}
+
+.login_btn:hover{
+    background-color: #f9a59a;
+}
+
+.hr_css{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.lost_content{
+    margin: 15px;
+}
+
+.lost_id_content{
+    margin: 8px;
+}
+
+.lost_id_content > a{
+    text-decoration: none;
+
+}
+
+.lost_pw_content > a{
+    text-decoration: none;
+    
 }
