@@ -76,9 +76,7 @@ input{
     margin-top: 20px;
 }
     
-button {
-    
-}
+
 
 .login_btn:hover{
     background-color: #f9a59a;
@@ -105,4 +103,18 @@ button {
 .lost_pw_content > a{
     text-decoration: none;
     
+}
+
+.main_title  {
+    text-align: center;
+}
+
+.trip_card{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.card_margin{
+    margin: 10px;
 }
