@@ -31,7 +31,7 @@ footer{
 
 .login_box{
     display: flex;
-    border: 1px solid red;
+    
     height: 600px;
     width: 400px;
     position: relative;
