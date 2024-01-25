@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .nav_right{
     display: flex;
     align-items: center;
@@ -105,16 +109,19 @@ input{
     
 }
 
-.main_title  {
+.main_title{
     text-align: center;
-}
-
-.trip_card{
-    display: flex;
-    align-items: center;
-    margin: 10px;
+    background-color: #f9a59a;
 }
 
 .card_margin{
-    margin: 10px;
+    margin: 15px;
+    
+}
+
+.card_list{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
 }
